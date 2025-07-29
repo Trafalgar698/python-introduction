@@ -1,6 +1,5 @@
 
-def roman_to_int(num):
-
+def test_roman_to_int():
     assert roman_to_int (1) == 'I'
     assert roman_to_int (2) == 'II'
     assert roman_to_int (3) == 'III'
@@ -11,6 +10,4 @@ def roman_to_int(num):
     assert roman_to_int (8) == 'VIII'
     assert roman_to_int (9) == 'IX'
     assert roman_to_int (10) == 'X'
-    return roman_to_int(num)
 
-    roman_num = ''

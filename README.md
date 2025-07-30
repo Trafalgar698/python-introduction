@@ -6,7 +6,7 @@
 - 2-addition [====================>] 100% (1/1) - Coverage: 100%
 - 1-hello [====================>] 100% (1/1) - Coverage: 100%
 - 3-reverse [>                   ] 0% (0/0) - Coverage: 0%
-- 6-bowling [======>             ] 33% (1/3) - Coverage: 95%
+- 6-bowling [======>             ] 33% (1/3) - Coverage: 96%
 - 5-romanconverter [====================>] 100% (6/6) - Coverage: 98%
 <!-- END_PROGRESS -->
 

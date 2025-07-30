@@ -9,3 +9,8 @@ def test_additional_score():
     assert calcul_score("5/ X -- -- -- -- -- -- -- --") == 5
 def test_spare():
     assert calcul_score("5/ 8- -- -- -- -- -- -- -- --") == 18
+
+def test_strike():
+    assert calcul_score("X -- -- -- -- -- -- -- -- --") == 10
+    assert calcul_score("X 3- -- -- -- -- -- -- -- --") == 13
+    assert calcul_score("X X -- -- -- -- -- -- -- --") == 20

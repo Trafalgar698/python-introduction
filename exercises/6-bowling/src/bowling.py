@@ -5,10 +5,11 @@ def calcul_score(score: str) -> int :
     for frame in frames :
         if '/' in frame :
             total += 10
+        if 'X' in frame :
+            total += 10
         for throw in frame :
             if frame == "-":
                 continue
-
             elif throw.isdigit():
                 total += int(throw)
 

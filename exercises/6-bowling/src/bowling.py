@@ -9,4 +9,5 @@ def calcul_score(score: str) -> int :
 
             elif throw.isdigit():
                 total += int(throw)
+        
     return total
